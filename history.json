@@ -1,0 +1,5584 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "USA",
+          "U.S.A."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States"
+      },
+      {
+        "from": [
+          "U.S.",
+          "US"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States"
+      },
+      {
+        "from": [
+          "United States",
+          "United States )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Netherlands",
+          "the Netherlands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Netherlands"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "United States",
+          "United States of America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Rossija",
+          "Russia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "England",
+          "England, United Kingdom",
+          "England, UK"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United Kingdom"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "United Kingdom",
+          "Scotland, United Kingdom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United Kingdom"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "UK",
+                "l": "UK"
+              }
+            },
+            {
+              "v": {
+                "v": ",",
+                "l": ","
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UK"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United Kingdom"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": ",",
+                "l": ","
+              }
+            },
+            {
+              "v": {
+                "v": "UK",
+                "l": "UK"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "university",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Universidad Ju%C3%A1rez Aut%C3%B3noma de Tabasco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Universidad Juárez Autónoma de Tabasco"
+      }
+    ],
+    "description": "Mass edit cells in column university"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Canada B1P 6L2",
+                "l": "Canada B1P 6L2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Canada B1P 6L2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Canada"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cura%C3%A7ao",
+                "l": "Cura%C3%A7ao"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cura%C3%A7ao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Curacao"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Wales",
+                "l": "Wales"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United Kingdom"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Russian Federation",
+                "l": "Russian Federation"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Russian Federation"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Nassau, Bahamas Fort Myers, FL Jacksonville, FL Miami, FL Miramar, FL Orlando, FL Palm Beach, FL Tampa, FL",
+                "l": "Nassau, Bahamas Fort Myers, FL Jacksonville, FL Miami, FL Miramar, FL Orlando, FL Palm Beach, FL Tampa, FL"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nassau, Bahamas Fort Myers, FL Jacksonville, FL Miami, FL Miramar, FL Orlando, FL Palm Beach, FL Tampa, FL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "country",
+          "expression": "value",
+          "columnName": "country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Satellite locations:",
+                "l": "Satellite locations:"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Satellite locations:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Scotland, UK"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United Kingdom"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "grel:value.replace(\"+\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression grel:value.replace(\"+\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "grel:value.replace(\"~\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression grel:value.replace(\"~\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "grel:value.replace(\",\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression grel:value.replace(\",\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "grel:value.replace(\" -\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression grel:value.replace(\" -\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "grel:value.replace(\" total\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression grel:value.replace(\" total\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "95833 Total"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "95833"
+      }
+    ],
+    "description": "Mass edit cells in column numStudents"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "One MEELLLLIOONNN DOLL HAIRS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "20268"
+      }
+    ],
+    "description": "Mass edit cells in column numStudents"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "http://www.brocku.ca/athletics/quickfacts.php"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "19100"
+      }
+    ],
+    "description": "Mass edit cells in column numStudents"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 4200000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "University of Wisconsin%E2%80%93Eau Claire",
+                "l": "University of Wisconsin%E2%80%93Eau Claire"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "university",
+    "expression": "grel:value.replace(\"%E2%80%93\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column university using expression grel:value.replace(\"%E2%80%93\",\" \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "university",
+    "expression": "grel:value.replace(\"%E2%80%93\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column university using expression grel:value.replace(\"%E2%80%93\",\" \")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 100000000,
+          "selectNumeric": true,
+          "selectNonNumeric": false,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "77126400"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 22986
+      }
+    ],
+    "description": "Mass edit cells in column numStudents"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "numStudents",
+          "expression": "value",
+          "columnName": "numStudents",
+          "from": 0,
+          "to": 100000000,
+          "selectNumeric": true,
+          "selectNonNumeric": false,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "77126400"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 22986
+      }
+    ],
+    "description": "Mass edit cells in column numStudents"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "77126400"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 22986
+      }
+    ],
+    "description": "Mass edit cells in column numStudents"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "77126400"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 22986
+      }
+    ],
+    "description": "Mass edit cells in column numStudents"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Mississippi State University",
+                "l": "Mississippi State University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "numStudents",
+    "expression": "grel:22986",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numStudents using expression grel:22986"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\"$\",\"\").replace(\";\",\"\").replace(\"US\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\"$\",\"\").replace(\";\",\"\").replace(\"US\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".9million\",\"900000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".9million\",\"900000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".5million\",\"500000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".5million\",\"500000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".7million\",\"700000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".7million\",\"700000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\"million2011\",\"mill\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\"million2011\",\"mill\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".2million\",\"200000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".2million\",\"200000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".6million\",\"600000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".6million\",\"600000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".4million\",\"400000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".4million\",\"400000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".3million\",\"300000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".3million\",\"300000\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "962.196million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "962196000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".1million\",\"100000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".1million\",\"100000\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "14.543million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14543000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "719.85million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "719850000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".8million\",\"800000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".8million\",\"800000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".0million\",\"000000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".0million\",\"000000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\"million.\",\"000000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\"million.\",\"000000\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "U.S.226million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "226000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36.389million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "36389000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "174.8Million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "174800000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "127.29million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "127290000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "63.35million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "63350000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "30.29million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "30290000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "88.5Million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "88500000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "25.2Million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "25200000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "73.9Million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "73900000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "million",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "country",
+          "columnName": "country",
+          "query": "United States",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "16.5Million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16500000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$2.224 billion in 2006"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2224000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$2.503 billion in 2012"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2503000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$1.3 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1300000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US $1.295 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1295000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$ 2.93 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2930000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".0 billion\",\"000000000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".0 billion\",\"000000000\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\"US $\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\"US $\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".449 billion\",\"449000000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".449 billion\",\"449000000\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.786 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1786000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\".1 billion\",\"100000000\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\".1 billion\",\"100000000\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "6.56 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6560000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "California Institute of Technology",
+                "l": "California Institute of Technology"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.55 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1550000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "California Institute of Technology",
+                "l": "California Institute of Technology"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$1.77 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1770000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "California Institute of Technology",
+                "l": "California Institute of Technology"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.77 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1.770000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Brown University",
+                "l": "Brown University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2.18 Billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2180000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Brown University",
+                "l": "Brown University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$ 2.5 Billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2500000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$1.65 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1650000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "7.80 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7800000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "7.8 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7800000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$2.002 billionin 2012"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2002000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$2.002 billion in 2012"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2002000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$ 1.02 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1020000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "US$ 1.194 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1194000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "grel:value.replace(\"US$\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column endowment using expression grel:value.replace(\"US$\",\"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " 1.25 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1250000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.25 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1250000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2.54 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2540000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "6.44 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6440000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "6.58 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6580000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "6.8  billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6800000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "$1.008 billion USD"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1008000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Case Western Reserve University",
+                "l": "Case Western Reserve University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.519 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1519000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Case Western Reserve University",
+                "l": "Case Western Reserve University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.703 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1703000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Johns Hopkins University",
+                "l": "Johns Hopkins University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2.22 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2220000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Johns Hopkins University",
+                "l": "Johns Hopkins University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2.59 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2590000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Washington University in St. Louis",
+                "l": "Washington University in St. Louis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "U.S.$4.6 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4600000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Washington University in St. Louis",
+                "l": "Washington University in St. Louis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "5.35 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5350000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Yale University",
+                "l": "Yale University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "16.7 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16700000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Yale University",
+                "l": "Yale University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " 19.3 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "19300000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Carnegie Mellon University",
+                "l": "Carnegie Mellon University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "endowment",
+          "expression": "value",
+          "columnName": "endowment",
+          "from": 0,
+          "to": 1600000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": "billion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "endowment",
+          "columnName": "endowment",
+          "query": ".",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.017 billion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1017000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "established",
+          "columnName": "established",
+          "query": "-",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "grel:value.match(/.*(\\d{4}).*/)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column established using expression grel:value.match(/.*(\\d{4}).*/)[0]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column established using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "University of North Carolina at Chapel Hill",
+                "l": "University of North Carolina at Chapel Hill"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Public"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1789"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "University of Illinois at Chicago",
+                "l": "University of Illinois at Chicago"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "244million"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "244000000"
+      }
+    ],
+    "description": "Mass edit cells in column endowment"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Carnegie Mellon University",
+                "l": "Carnegie Mellon University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1900 by Andrew Carnegie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1900"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acadia University",
+                "l": "Acadia University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1838 Queen's College established. Now Acadia University."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1838"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column established using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "– University of Sheffield"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1905"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column established using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "http://dbpedia.org/resource/History_of_Oregon_State_University"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1856"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chartered Jun. 18 1897"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1897"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chartered Jun. 18, 1897"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1897"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1903 Victoria College. Now named University of Victoria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1903"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column established using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WRU: 1826"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1826"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CWRU: 1967"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1967"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CIT: 1880"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1880"
+      }
+    ],
+    "description": "Mass edit cells in column established"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "established",
+          "expression": "value",
+          "columnName": "established",
+          "from": 0,
+          "to": 200000000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "established",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column established using expression value.toNumber()"
+  },
+  {
+    "op": "core/blank-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "facetCount(value, 'value', 'university') > 1",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "endowment",
+    "description": "Blank down cells in column endowment"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "number",
+          "column": "numStudents",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": true
+        },
+        {
+          "valueType": "number",
+          "column": "endowment",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": true
+        },
+        {
+          "valueType": "date",
+          "column": "established",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": true
+        },
+        {
+          "valueType": "string",
+          "column": "university",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/blank-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "value",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acadia University",
+                "l": "Acadia University"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "university",
+    "description": "Blank down cells in column university"
+  },
+  {
+    "op": "core/blank-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "university",
+    "description": "Blank down cells in column university"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "university",
+          "expression": "facetCount(value, 'value', 'university') > 1",
+          "columnName": "university",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]
